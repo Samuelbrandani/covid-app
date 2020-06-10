@@ -1,0 +1,33 @@
+name: corona_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.17.4
+  cupertino_icons: ^0.1.2
+  http: ^0.12.1
+  date_time_format: ^1.0.0+4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Popping
+      fonts:
+        - asset: assets\fonts\Poppins\Poppins-Regular.ttf
+        - asset: assets\fonts\Poppins\Poppins-Medium.ttf
+          weight: 600
+        - asset: assets\fonts\Poppins\Poppins-Bold.ttf
+          weight: 700
